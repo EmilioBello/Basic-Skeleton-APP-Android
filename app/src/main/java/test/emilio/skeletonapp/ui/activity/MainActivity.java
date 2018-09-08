@@ -1,4 +1,4 @@
-package test.emilio.skeletonapp.ui;
+package test.emilio.skeletonapp.ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
