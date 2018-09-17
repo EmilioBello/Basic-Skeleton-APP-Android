@@ -69,8 +69,8 @@
                 android:id="@+id/ivAvatar"
                 android:layout_width="95dip"
                 android:layout_height="140dip"
-
-                android:scaleType="centerCrop"/>
+                android:scaleType="centerCrop"
+                app:imageUrl="@{serie.urlAvatar}"/>
         </FrameLayout>
 
         <TextView
