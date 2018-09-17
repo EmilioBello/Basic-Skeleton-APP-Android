@@ -1,8 +1,14 @@
-package test.emilio.skeletonapp.ui.viewmodel;
+package test.emilio.skeletonapp.view.viewmodel;
+
+import android.databinding.BindingAdapter;
+import android.widget.ImageView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
 import lombok.Data;
+import test.emilio.skeletonapp.R;
 import test.emilio.skeletonapp.model.POJO.entity.ADSerie;
 
 /**
@@ -30,6 +36,13 @@ public class SeriesViewModel {
 
     private String urlAvatar;
     private String urlImageBackground;
+
+    @BindingAdapter({"imageUrl"})
+    public static void loadImage(ImageView view, String imageUrl) {
+        Picasso.get()
+                .load(imageUrl)
+                .into(view);
+    }
 
     public static SeriesViewModel converterEntitytoViewModel(ADSerie serie) {
         SeriesViewModel viewModel = null;

@@ -41,4 +41,7 @@ dependencies {
     //Mapper
     implementation 'org.modelmapper:modelmapper:1.1.2'
     annotationProcessor 'org.modelmapper:modelmapper:1.1.2'
+
+    //ImageLoader
+    implementation 'com.squareup.picasso:picasso:2.71828'
 }

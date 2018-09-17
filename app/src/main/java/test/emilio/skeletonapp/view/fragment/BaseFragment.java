@@ -1,4 +1,4 @@
-package test.emilio.skeletonapp.ui.fragment;
+package test.emilio.skeletonapp.view.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import test.emilio.skeletonapp.ui.activity.MainActivity;
+import test.emilio.skeletonapp.view.activity.MainActivity;
 
 /**
  * Base fragment created to be extended by every fragment in this application. This class provides

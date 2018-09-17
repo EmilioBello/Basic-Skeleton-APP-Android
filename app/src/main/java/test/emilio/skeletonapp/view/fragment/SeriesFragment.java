@@ -1,4 +1,4 @@
-package test.emilio.skeletonapp.ui.fragment;
+package test.emilio.skeletonapp.view.fragment;
 
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -10,8 +10,8 @@ import java.util.List;
 import test.emilio.skeletonapp.BR;
 import test.emilio.skeletonapp.MyApp;
 import test.emilio.skeletonapp.R;
-import test.emilio.skeletonapp.ui.adapter.CommonAdapter;
-import test.emilio.skeletonapp.ui.viewmodel.SeriesViewModel;
+import test.emilio.skeletonapp.view.adapter.CommonAdapter;
+import test.emilio.skeletonapp.view.viewmodel.SeriesViewModel;
 
 public class SeriesFragment extends BaseFragment {
 
@@ -43,7 +43,7 @@ public class SeriesFragment extends BaseFragment {
         createItems();
 
         //adapter
-        adapter = new CommonAdapter(viewModels, getContext(), R.layout.row_serie, BR.serie);
+        adapter = new CommonAdapter(viewModels, R.layout.row_serie, BR.serie);
         rvSerie.setAdapter(adapter);
 
         //layout
@@ -61,6 +61,7 @@ public class SeriesFragment extends BaseFragment {
         for(int i = 0; i < 10; i++){
             SeriesViewModel item = new SeriesViewModel();
             item.setName(""+i);
+            item.setUrlAvatar("https://vignette.wikia.nocookie.net/gameofthrones/images/1/15/Game-of-thrones-final-season-poster.jpg/revision/latest?cb=20180227185541");
             viewModels.add(item);
         }
     }
