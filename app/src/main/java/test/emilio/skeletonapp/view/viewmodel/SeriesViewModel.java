@@ -1,4 +1,4 @@
-package test.emilio.skeletonapp.ui.viewmodel;
+package test.emilio.skeletonapp.view.viewmodel;
 
 import java.util.ArrayList;
 

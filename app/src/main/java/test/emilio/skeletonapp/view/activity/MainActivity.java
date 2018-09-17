@@ -1,4 +1,4 @@
-package test.emilio.skeletonapp.ui.activity;
+package test.emilio.skeletonapp.view.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -8,8 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import test.emilio.skeletonapp.R;
-import test.emilio.skeletonapp.ui.fragment.BaseFragment;
-import test.emilio.skeletonapp.ui.fragment.SeriesFragment;
+import test.emilio.skeletonapp.view.fragment.BaseFragment;
+import test.emilio.skeletonapp.view.fragment.SeriesFragment;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package test.emilio.skeletonapp.ui.fragment;
+package test.emilio.skeletonapp.view.fragment;
 
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -10,8 +10,8 @@ import java.util.List;
 import test.emilio.skeletonapp.BR;
 import test.emilio.skeletonapp.MyApp;
 import test.emilio.skeletonapp.R;
-import test.emilio.skeletonapp.ui.adapter.CommonAdapter;
-import test.emilio.skeletonapp.ui.viewmodel.SeriesViewModel;
+import test.emilio.skeletonapp.view.adapter.CommonAdapter;
+import test.emilio.skeletonapp.view.viewmodel.SeriesViewModel;
 
 public class SeriesFragment extends BaseFragment {
 

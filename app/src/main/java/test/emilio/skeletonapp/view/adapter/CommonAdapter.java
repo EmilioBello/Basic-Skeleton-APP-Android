@@ -1,4 +1,4 @@
-package test.emilio.skeletonapp.ui.adapter;
+package test.emilio.skeletonapp.view.adapter;
 
 import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;
